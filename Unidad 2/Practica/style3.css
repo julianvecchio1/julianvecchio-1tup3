@@ -1,0 +1,25 @@
+fieldset {
+    background-color: rgb(105, 183, 185);
+}
+
+label {
+    font-weight: bold;
+}
+
+.terminos {
+    font-weight: 100;
+}
+
+a {
+    color: rgb(107, 15, 102);
+}
+
+body {
+    display: inline-block;
+
+}
+
+div {
+    display: flex;
+    justify-content: center
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="#" method="post" target="_blank">
+
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" maxlength="30" placeholder="Escribe tu nombre"><br>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" maxlength="30" placeholder="Escribe tu apellido"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required placeholder="correo@empresa.com"><br>
+            <label for="asunto">Asunto</label><br>
+            <select name="asunto" size="3">
+                <option value="pedir presupuesto web">pedir presupuesto web</option>
+                <option value="solicitar cita previa">solicitar cita previa</option>
+                <option value="otros">otros</option>
+            </select><br><br>
+            <label for="conocimiento">¿Como nos ha conocido?</label><br><br>
+            <input type="checkbox" name="conocido" value="un amigo" id="conocimiento">Un amigo
+            <input type="checkbox" name="conocido" value="googleando" id="conocimiento">Googleando
+            <input type="checkbox" name="conocido" value="buzoneo" id="conocimiento">Buzoneo
+            <input type="checkbox" name="conocido" value="otros" id="conocimiento">Otros <br><br>
+            <label for="mensaje">Escribe tu mensaje</label><br>
+            <textarea name="mensaje" rows="10" cols="40" maxlength="300"></textarea><br>
+            <label for="aceptacion-terminos" class="terminos"><input type="checkbox" name="aceptacion"
+                    id="aceptacion-terminos" required>He leido y acepto el <a href="http://www.google.com">aviso legal y
+                    la politica de privacidad</a></label><br><br>
+            <div><button type="submit">Enviar</button></div>
+
+    </fieldset>
+
+    </form>
+</body>
+
+</html>
